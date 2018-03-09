@@ -1,0 +1,34 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.7",
+  "main": "index.js",
+  "description": "React App bundled with Parcel",
+  "license": "MIT",
+  "author": "Samet ERDEM",
+  "scripts": {
+    "lint:eslint": "eslint .",
+    "lint:eslint-fix": "eslint --fix ."
+  },
+  "bin": {
+    "parcel-react": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sameterdem/parcel-react"
+  },
+  "keywords": [
+    "parcel",
+    "react"
+  ],
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "cli-spinner": "^0.2.8",
+    "eslint": "^4.18.2",
+    "fs-extra": "^5.0.0",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
